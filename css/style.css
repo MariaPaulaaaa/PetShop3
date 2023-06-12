@@ -60,15 +60,10 @@ header{
 }
 
 .Banner{
-    position: relative;
-    display: flex;
-    text-align: center;
-    width: fit-content;
-}
-
-.fotofondo{
-    width: 100%;
-    height: auto;
+    background-image: url('../img/bowl-and-pet-daities-on-green-background\ 1.png');
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
 }
 
 .FondoBlanco{
@@ -78,15 +73,15 @@ header{
     position: absolute;
     padding: 1% 2%;
     border-radius: 5px;
-    top: 50%;
-    left: 55%;
+    top: 50vh;
+    left: 65vw;
 }
 
 .Normal{
     color: black;
     position: absolute;
-    top: 61%;
-    left: 45%;
+    top: 61vh;
+    left: 58vw;
     transform: translate(50%, 50%);
 }
 
@@ -96,8 +91,8 @@ header{
     position: absolute;
     padding: 1% 2%;
     border-radius: 5px;
-    top: 73%;
-    left: 67%;
+    top: 73vh;
+    left: 76vw;
 }
 
 .Productos{
@@ -108,8 +103,8 @@ header{
 }
 
 .FotoHuella{
-    width: 5%;
-    margin-left: 50%;
+    width: 50px;
+    margin-left: 45vw;
 }
 
 .Negrilla{
@@ -131,6 +126,7 @@ header{
 
 .prod{
     display: flex;
+    justify-content: space-around;
     padding: 2%;
 }
 
@@ -214,8 +210,8 @@ footer{
 }
 
 .texto{
-    margin-top: 0.7%;
-    margin-left: 1%;
+    margin-top: 0.6em;
+    margin-left: 1em;
 }
 
 .FooterNegro{
@@ -240,10 +236,45 @@ footer{
         justify-content: flex-start;
     }
 
-    .Banner, .Productos, .prod, .first, .second, .third {
+    .Productos, .prod, .first, .second, .third {
         flex-direction: column;
         align-items: center;
         margin: 0;
         flex-wrap: wrap;
+    }
+
+    .FondoBlanco{
+        background-color: white;
+        color: black;
+        font-size: 30px;
+        position: absolute;
+        padding: 1% 2%;
+        border-radius: 5px;
+        top: 50vh;
+        left: 5vw;
+    }
+    
+    .Normal{
+        color: black;
+        position: absolute;
+        font-size: 20px;
+        text-align: center;
+        top: 61vh;
+        left: 4.5vw;
+    }
+    
+    .FondoNaranja{
+        background-color: #eeab2e;
+        color: white;
+        position: absolute;
+        padding: 1% 2%;
+        border-radius: 5px;
+        top: 73vh;
+        left: 67vw;
+    }
+
+    .FotoHuella{
+        width: 50px;
+        margin-left: 5vw;
     }
 }
