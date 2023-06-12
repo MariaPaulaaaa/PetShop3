@@ -188,6 +188,10 @@ footer{
     text-align: left;
 }
 
+.hamburguesa{
+    display: none;
+}
+
 .footinfo{
     display: flex;
     flex-direction: column;
@@ -255,6 +259,12 @@ footer{
         left: 25vw;
     }
     
+    .hamburguesa{
+        display: inline-block;
+        font-size: 1.5rem;
+        color: black;
+    }
+
     .Normal{
         color: black;
         position: absolute;
