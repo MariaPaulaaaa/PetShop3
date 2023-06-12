@@ -285,4 +285,20 @@ footer{
         width: 100vw;
         height: 100vh;
     }
+
+    .FooterCafe{
+        flex-direction: column-reverse;
+    }
+
+    .CatDogFinal{
+        margin-top: 2%;
+        margin-bottom: 2%;
+        margin-left: 27vw;
+        width: 45%;
+    }
+
+    .footmenu{
+        flex-grow: 0.7;
+        align-self: center;
+    }
 }
