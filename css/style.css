@@ -47,11 +47,16 @@ header{
     padding: 1%;
 }
 
-.ul-Menu{
+.logoimg{
     display: flex;
-    list-style: none;
-    left: 2%;
-    list-style-image: url('../img/HuellitaIndice.png');
+    justify-content: space-around;
+    padding: 0.5%;
+}
+
+.Menu{
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 0.2;
 }
 
 .Banner{
@@ -59,6 +64,11 @@ header{
     display: flex;
     text-align: center;
     width: fit-content;
+}
+
+.fotofondo{
+    width: 100%;
+    height: auto;
 }
 
 .FondoBlanco{
