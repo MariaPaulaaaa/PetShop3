@@ -61,7 +61,8 @@ header{
 
 .Banner{
     background-image: url('../img/bowl-and-pet-daities-on-green-background\ 1.png');
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     width: 100vw;
     height: 100vh;
 }
@@ -276,5 +277,12 @@ footer{
     .FotoHuella{
         width: 50px;
         margin-left: 5vw;
+    }
+
+    .Banner{
+        background-size: cover;
+        background-position: 7%;
+        width: 100vw;
+        height: 100vh;
     }
 }
