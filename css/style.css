@@ -64,7 +64,7 @@ header{
     background-size: contain;
     background-repeat: no-repeat;
     width: 100vw;
-    height: 100vh;
+    height: 90vh
 }
 
 .FondoBlanco{
@@ -100,18 +100,18 @@ header{
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 2%;
 }
 
 .FotoHuella{
     width: 50px;
-    margin-left: 45vw;
+    margin-left: 47vw;
 }
 
 .Negrilla{
     font-weight: bold;
     font-size: 40px;
     color: #5b1f00;
+    text-align: center;
 }
 
 .Gris{
@@ -128,7 +128,7 @@ header{
 .prod{
     display: flex;
     justify-content: space-around;
-    padding: 2%;
+    padding: 1%;
 }
 
 .imgs{
@@ -249,10 +249,10 @@ footer{
         color: black;
         font-size: 30px;
         position: absolute;
-        padding: 1% 2%;
+        padding: 2% 3%;
         border-radius: 5px;
         top: 50vh;
-        left: 5vw;
+        left: 25vw;
     }
     
     .Normal{
@@ -260,8 +260,8 @@ footer{
         position: absolute;
         font-size: 20px;
         text-align: center;
-        top: 61vh;
-        left: 4.5vw;
+        top: 63vh;
+        left: 30vw;
     }
     
     .FondoNaranja{
@@ -276,7 +276,7 @@ footer{
 
     .FotoHuella{
         width: 50px;
-        margin-left: 5vw;
+        margin-left: 1vw;
     }
 
     .Banner{
