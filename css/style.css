@@ -85,8 +85,8 @@ header{
 .Normal{
     color: black;
     position: absolute;
-    top: 63%;
-    left: 55%;
+    top: 61%;
+    left: 45%;
     transform: translate(50%, 50%);
 }
 
