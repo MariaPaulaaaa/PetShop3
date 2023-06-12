@@ -131,7 +131,6 @@ header{
 
 .prod{
     display: flex;
-    flex-direction: column;
     padding: 2%;
 }
 
@@ -224,4 +223,27 @@ footer{
     color: white;
     padding: 0.3%;
     font-size: 10px;
+}
+
+@media screen and (max-width: 768px){
+    .Menu {
+        display: none;
+      }
+    
+    i {
+        display: inline-block;
+        font-size: 2rem;
+    } 
+
+    .logoimg {
+        transform: scale(0.9);
+        justify-content: flex-start;
+    }
+
+    .Banner, .Productos, .prod, .first, .second, .third {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        flex-wrap: wrap;
+    }
 }
